@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Bangun Datar</title>
+        <!-- css style-->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- body form luas-->
+        <div class="wrapper">
+            <div class="title-text">
+                <div class="title-luas">Hitung Luas</div>
+            </div>
+            <div class="form-container">
+                <div class="form-inner">
+                    <form action="#" class="luas">
+                        <table>
+                            <tr>
+                                <td> Alas </td>
+                                <td><input type="number" placeholder="Masukan Alas" id="alas" name="alas" required></td>
+                            </tr>
+                            <tr>
+                                <td> Tinggi </td>
+                                <td><input type="number" placeholder="Masukan Tinggi" id="tinggi" name="tinggi" required></td>
+                            </tr>
+                            <tr>
+                                <td> Luas </td>
+                                <td><input type="number" id="luas" name="Luas" disabled="true"></td>
+                            </tr>
+                            <tr>
+                                <td>  </td>
+                                <td><input type="button" value="hitung" onclick="hitungluas()"></td>
+                            </tr>
+                            <tr>
+                                <td>  </td>
+                                <td><input type="button" value="Reset" onclick="resetluas()"></td>
+                            </tr>
+                        </table>
+                    </form>
+                
+                </div>
+            </div>
+        </div>
+            <!-- body form Keliling-->
+        <div class="wrapper">
+            <div class="title-text">
+                <div class="title-keliling">Hitung Keliling</div>
+            </div> 
+            <div class="form-container">
+                <div class="form-inner">
+                    <form action="#" class="keliling">
+                        <table>
+                            <tr>
+                                <td> Sisi A </td>
+                                <td><input type="number" placeholder="Masukan Sisi A" id="sisi-a" name="sisi-a" required></td>
+                            </tr>
+                            <tr>
+                                <td> Sisi B </td>
+                                <td><input type="number" placeholder="Masukan Sisi B" id="sisi-b" name="sisi-b" required></td>
+                            </tr>
+                            <tr>
+                                <td> Sisi C </td>
+                                <td><input type="number" placeholder="Masukan Sisi C" id="sisi-c" name="sisi-c" required></td>
+                            </tr>
+                            <tr>
+                                <td> Keliling </td>
+                                <td><input type="number" id="keliling" name="keliling" disabled="true"></td>
+                            </tr>
+                            <tr>
+                                <td>  </td>
+                                <td><input type="button" value="hitung" onclick="hitungkeliling()"></td>
+                            </tr>
+                            <tr>
+                                <td>  </td>
+                                <td><input type="button" value="Reset" onclick="resetkeliling()"></td>
+                            </tr>
+                        </table>
+                    </form>
+                
+                </div>
+            </div>
+        </div> 
+    </body>
+    <!-- Javascript-->
+    <script src="js/script.js"></script>
+</html>
